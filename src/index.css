@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow-x: hidden;
+}
+
+
+@media(max-width:317.5px){
+    body{
+     overflow-x:auto;
+   
+    }
+    .home{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.wave {
+    animation-name: wave-animation;
+    /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;
+    /* Change to speed up or slow down */
+    animation-iteration-count: infinite;
+    /* Never stop waving :) */
+    transform-origin: 70% 70%;
+    /* Pivot around the bottom-left palm */
+    display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate( 0.0deg)
+    }
+    10% {
+        transform: rotate(14.0deg)
+    }
+    /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+        transform: rotate(-8.0deg)
+    }
+    30% {
+        transform: rotate(14.0deg)
+    }
+    40% {
+        transform: rotate(-4.0deg)
+    }
+    50% {
+        transform: rotate(10.0deg)
+    }
+    60% {
+        transform: rotate( 0.0deg)
+    }
+    /* Reset for the last half to pause */
+    100% {
+        transform: rotate( 0.0deg)
+    }
+}
+
+.navbar-brand:hover {
+    font-weight: bold;
+}
+.nav-link{
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: #008000;
+    text-underline-offset: 8px;
+}
+
+
+.afterHover {
+    border: 2px solid white;
+}
+
+.accordion{
+    background-color: black !important;  
+    border-color:black !important;
+    color:white !important;
+    font-weight: bold;
+}
+.hover-accordion {
+  background-color: white !important;  
+  border-color:black !important;
+  color:black !important;
+  font-weight: bold !important;
+  border-radius: 1rem !important;
+}
+
+ .socialMedia-contact:hover {
+          background-color: #43A047;
+          transform: scale(1.1);
+}
+
+.btn-green {
+  background-color: #28a745 !important;
+  color: white !important;
+  border-color: #28a745 !important;
+}
+
+.btn-green :hover{
+    border-color:#28a745 !important ;
+}
