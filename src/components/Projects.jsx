@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
-
-
+import nestify from '../../dist/Nestify.png'
+import weather from '../../dist/weather.png'
+import simon from '../../dist/Simon.png'
 function Projects() {
   return (
       <div className="max-w-screen-2xl container mx-auto  md:px-10  bg-white text-black py-20" id='Projects'>
@@ -26,7 +27,7 @@ function Projects() {
           >
             <div className="w-full md:w-1/2 flex justify-center py-2">
               <img
-                src="/dist/nestify.png"
+                src={nestify}
                 alt="Nestify"
                 className="h-auto max-w-full rounded-lg border-2 border-black"
               />
@@ -65,7 +66,7 @@ function Projects() {
             </div>
             <div className="w-full md:w-1/2 flex justify-center py-2">
               <img
-                src="/dist/Simon.png"
+                src={simon}
                 alt="Simon Says Game"
                 className="h-auto max-w-full rounded-lg border-2 border-white"
               />
@@ -88,7 +89,7 @@ function Projects() {
           >
             <div className="w-full md:w-1/2 flex justify-center py-2">
               <img
-                src="/dist/weather.png"
+                src={weather}
                 alt="Weather App"
                 className="h-auto max-w-full rounded-lg border-2 border-black"
               />
