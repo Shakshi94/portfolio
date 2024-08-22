@@ -7,7 +7,7 @@ import XIcon from '@mui/icons-material/X';
 function Home(){
     return(
         <>
-        <div className={` bg-no-repeat bg-cover bg-center bg-local bg-[url('dist/backgroundimage.jpg')] max-w-screen-2xl container mx-auto px-4 md:px-20 bg-black text-white min-h-screen py-20`} id="Home">
+        <div className={` bg-no-repeat bg-cover bg-center bg-local bg-[url('backgroundimage.jpg')] max-w-screen-2xl container mx-auto px-4 md:px-20 bg-black text-white min-h-screen py-20`} id="Home">
 
 
             <div className="home flex flex-row flex-cols mx-4 ">
