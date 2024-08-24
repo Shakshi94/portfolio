@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { Card, CardContent, Typography, CardActions, Button } from "@mui/material";
 
 function internship() {
