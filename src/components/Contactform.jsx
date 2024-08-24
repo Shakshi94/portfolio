@@ -112,13 +112,13 @@ function Contact() {
     return emailRegex.test(value);
   };
   return (
-    <div className="max-w-screen-2xl container mx-auto bg-black text-white py-20 px-4 md:px-10 " id='Contact'>
+    <div className="max-w-screen-2xl container mx-auto bg-white text-black py-20 px-4 md:px-10 " id='Contact'>
       <div className="flex flex-col items-center space-y-4">
         <div className="text-4xl font-bold">Contact With Me</div>
       </div>
 
-      <div className="flex flex-col md:flex-row items-center py-10 space-y-8 md:space-y-0">
-        <div className="bg-black border-2 border-white text-white p-8 rounded-lg shadow-lg w-full md:w-2/5 ">
+      <div className="flex flex-col md:flex-row items-center justify-center py-10 space-y-8 md:space-y-0">
+        <div className="bg-white border-2 border-black text-black p-8 rounded-lg shadow-lg w-full md:w-2/5 ">
           <p className="mb-6">If you have a query or concern, please contact me.</p>
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
@@ -131,7 +131,7 @@ function Contact() {
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
-                className={`w-full p-2 border border-gray-700 rounded bg-black text-white ${errors.name ? "error" : ""}`}
+                className={`w-full p-2 border border-gray-700 rounded bg-white text-black ${errors.name ? "error" : ""}`}
                 disabled={isLoading}
               />
               {errors.name && (
@@ -147,7 +147,7 @@ function Contact() {
                 id="email"
                 type="email"
                 name="email"
-                className={`w-full p-2 border border-gray-700 rounded bg-black text-white ${errors.email ? "error" : ""}`}
+                className={`w-full p-2 border border-gray-700 rounded bg-white text-black ${errors.email ? "error" : ""}`}
                 value={formData.email}
                 onChange={handleChange}
                 disabled={isLoading}
@@ -164,7 +164,7 @@ function Contact() {
               <textarea
                 id="message"
                 name="message"
-                className={`w-full p-2 border border-gray-700 rounded bg-black text-white ${errors.message ? "error" : ""}`}
+                className={`w-full p-2 border border-gray-700 rounded bg-white text-black ${errors.message ? "error" : ""}`}
                 value={formData.message}
                 onChange={handleChange}
                 disabled={isLoading}
@@ -183,22 +183,22 @@ function Contact() {
           </form>
         </div>
 
-        <div className="bg-black text-white p-14 rounded-lg shadow-lg w-full md:w-2/5 mt-8 md:mt-0 md:ml-8">
+        <div className="bg-white text-black  p-14 shadow-sm rounded-lg  w-full md:w-2/5 mt-8 md:mt-0 md:ml-8">
           <div className="space-y-4">
             <div className="flex items-center">
-              <div className="rounded-full w-12 h-12 border-2 border-white flex items-center justify-center socialMedia-contact mr-4">
-                <AlternateEmailIcon />
+              <div className="rounded-full w-12 h-12 border-2 border-black flex items-center justify-center socialMedia-contact mr-4">
+                <AlternateEmailIcon  />
               </div>
               <span className='text-lg font-bold'>vishwakarmasakshi80@gmail.com</span>
             </div>
             <div className="flex items-center">
-              <div className="rounded-full w-12 h-12 border-2 border-white flex items-center justify-center socialMedia-contact mr-4">
+              <div className="rounded-full w-12 h-12 border-2 border-black flex items-center justify-center socialMedia-contact mr-4">
                 <PhoneIcon />
               </div>
               <span className='text-lg font-bold'>+919451909759</span>
             </div>
             <div className="flex items-center">
-              <div className="rounded-full w-14 h-12 border-2 border-white flex items-center justify-center socialMedia-contact mr-4">
+              <div className="rounded-full w-14 h-12 border-2 border-black flex items-center justify-center socialMedia-contact mr-4">
                 <LocationOnIcon />
               </div>
               <span className='text-lg font-bold'>Jasopur, Jaunpur, 222001, Uttar Pradesh, India</span>
@@ -207,17 +207,17 @@ function Contact() {
           <div className="flex flex-col items-center mt-6 space-y-6">
             <ul className="flex space-x-8">
               <li>
-                <a href="https://www.linkedin.com/in/shakshi-vishwakarma-21050421b/" target='blank' className="rounded-full w-12 h-12 border-2 border-white flex items-center justify-center socialMedia-contact transition duration-200">
+                <a href="https://www.linkedin.com/in/shakshi-vishwakarma-21050421b/" target='blank' className="rounded-full w-12 h-12 border-2 border-black flex items-center justify-center socialMedia-contact transition duration-200">
                   <LinkedInIcon className="cursor-pointer" />
                 </a>
               </li>
               <li>
-                <a href="https://github.com/Shakshi94" target='blank' className="rounded-full w-12 h-12 border-2 border-white flex items-center justify-center socialMedia-contact transition duration-200">
+                <a href="https://github.com/Shakshi94" target='blank' className="rounded-full w-12 h-12 border-2 border-black flex items-center justify-center socialMedia-contact transition duration-200">
                   <GitHubIcon className="cursor-pointer" />
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/imshakshivishwakarma/?next=%2F" target='blank' className="rounded-full w-12 h-12 border-2 border-white flex items-center justify-center socialMedia-contact transition duration-200">
+                <a href="https://www.instagram.com/imshakshivishwakarma/?next=%2F" target='blank' className="rounded-full w-12 h-12 border-2 border-black flex items-center justify-center socialMedia-contact transition duration-200">
                   <InstagramIcon className="cursor-pointer" />
                 </a>
               </li>
