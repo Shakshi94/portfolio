@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-
+import shakshi from '../../public/shakshi.jpg'
 function About() {
     return (
         <div className="max-w-screen-2xl container mx-auto py-20 px-4 md:px-20 bg-white text-black" name="About">
@@ -15,7 +15,7 @@ function About() {
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.7 }}
                 className="w-full md:w-1/2 flex justify-center md:space-y-8 mt-5">
-                    <img className="h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer border-2 border-black" src="/public/shakshiphoto.jpg" alt="image description" />
+                    <img className="h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer border-2 border-black" src={shakshi} alt="image description" />
                 </motion.div>
 
                 <motion.div 
