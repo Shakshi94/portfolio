@@ -10,7 +10,8 @@ import { TbBrandRedux } from "react-icons/tb";
 import { TbBrandMysql } from "react-icons/tb";
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
-
+import Cplusplus from '../../public/cplusphoto.jpg'
+import gitphoto from '../../public/gitphoto.jpg'
 function Skills() {
     return (
         <div className='bg-black text-white max-w-screen-2xl container mx-auto px-4 md:px-20 py-20'  >
@@ -72,12 +73,12 @@ function Skills() {
                 </div>
                 <div className="transform rounded-lg h-30 w-30 sm:h-36 sm:w-36 bg-white shadow-xl transition duration-300 hover:scale-105 border-green-600">
                     <div className="flex h-full justify-center items-center">
-                        <img src="/public/cplus.jpg" alt="git" className='size-20' />
+                        <img src={Cplusplus} alt="git" className='size-20' />
                     </div>
                 </div>
                 <div className="transform rounded-lg h-30 w-30 sm:h-36 sm:w-36 bg-white shadow-xl transition duration-300 hover:scale-105 border-green-600">
                     <div className="flex h-full justify-center items-center">
-                        <img src="/public/git.jpg" alt="C++" className='size-20' />
+                        <img src={gitphoto} alt="C++" className='size-20' />
                     </div>
                 </div>
                 <div className="transform rounded-lg h-30 w-30 sm:h-36 sm:w-36 bg-white shadow-xl transition duration-300 hover:scale-105 border-green-600">
