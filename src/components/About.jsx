@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import shakshi from '../../public/shakshi.jpg'
+import shakshi from '../../public/shakshiphoto.jpg'
 function About() {
     return (
         <div className="max-w-screen-2xl container mx-auto py-20 px-4 md:px-20 bg-white text-black" name="About">
