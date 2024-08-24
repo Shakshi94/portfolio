@@ -16,7 +16,7 @@ export default function Certificate() {
   };
 
   return (
-    <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 py-20 bg-white text-black" id='Achievements'>
+    <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 py-20 bg-black text-white" id='Achievements'>
       <h1 className="text-4xl mb-5 text-center font-bold">Achievements</h1>
       <Accordion
         expanded={hoveredAccordion === 'panel1'}
@@ -29,7 +29,7 @@ export default function Certificate() {
           aria-controls="panel1-content"
           id="panel1-header"
         >
-          Mern Full Stack Development (Apna College)
+          MERN Full Stack Development (Apna College)
         </AccordionSummary>
         <AccordionDetails>
           I did Full stack development from apna college.
