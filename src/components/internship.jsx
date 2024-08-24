@@ -1,3 +1,4 @@
+import * as React from 'react';
 import { Card, CardContent, Typography, CardActions, Button } from "@mui/material";
 
 function internship() {
@@ -10,21 +11,18 @@ function internship() {
             <div className='flex align-items-center justify-center'>
              <Card sx={{ maxWidth: 345, margin: "20px auto", backgroundColor: '#181818',color:'white',
               "&:hover": {
-              backgroundColor: "#43A047",
-              color: 'black',
-            },
-            '&:hover Button': {
-              color: 'black'
-            }}}>
+                transform: "scale(1.05)",
+                boxShadow: "0 6px 20px rgba(255, 255, 255, 0.2)",
+              },}}>
                 <CardContent>
                 
-                  <Typography variant="h5">
+                  <Typography variant="h5" color="white">
                     Prodigy Infotech
                   </Typography>
                     <Typography  component="div" sx={{ fontWeight: "bold" }}>
                     Full Stack Web Development
                   </Typography>
-                  <Typography variant="body2" sx={{ margin: "10px 0" }}>
+                  <Typography variant="body2" color="white" sx={{ margin: "10px 0" }}>
                     Worked on developing and deploying web applications using HTML, CSS, JavaScript, Node.js, Express, and MongoDB.
                     Completed 3 projects including an employee management system and authentication systems and BusyBuy.
                   </Typography>
@@ -36,7 +34,9 @@ function internship() {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button color='success'>View Projects</Button>
+                  <Button size="small" color="success" href="https://github.com/Shakshi94">
+                    View Project
+                  </Button>
                 </CardActions>
               </Card>
           </div>  
