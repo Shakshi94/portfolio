@@ -25,7 +25,7 @@ function Projects() {
           >
             <div className="w-full md:w-1/2 flex justify-center py-2">
               <img
-                src='/public/images/nestify.png'
+                src='/public/nestify.jpg'
                 alt="Nestify"
                 className="h-auto max-w-full rounded-lg border-2 border-black"
               />
@@ -64,7 +64,7 @@ function Projects() {
             </div>
             <div className="w-full md:w-1/2 flex justify-center py-2">
               <img
-                src='/public/images/simon.png'
+                src='/public/simon.jpg'
                 alt="Simon Says Game"
                 className="h-auto max-w-full rounded-lg border-2 border-white"
               />
@@ -87,7 +87,7 @@ function Projects() {
           >
             <div className="w-full md:w-1/2 flex justify-center py-2">
               <img
-                src='/public/images/weather.png'
+                src='/public/weather.jpg'
                 alt="Weather App"
                 className="h-auto max-w-full rounded-lg border-2 border-black"
               />

@@ -15,7 +15,7 @@ function About() {
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.7 }}
                 className="w-full md:w-1/2 flex justify-center md:space-y-8 mt-5">
-                    <img className="h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer border-2 border-black" src="/public/images/shakshiphoto.png" alt="image description" />
+                    <img className="h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer border-2 border-black" src="/public/shakshiphoto.jpg" alt="image description" />
                 </motion.div>
 
                 <motion.div 
