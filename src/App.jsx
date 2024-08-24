@@ -8,7 +8,7 @@ import Education from './components/Education';
 import Certificate from './components/Certificate';
 import Contact from './components/Contactform';
 import Footer from './components/Footer';
-
+import Internship from './components/internship.jsx';
 function App() {
     const { scrollYProgress } = useScroll();
     return (
@@ -21,6 +21,7 @@ function App() {
                     <About />
                     <Skills />
                     <Projects />
+                    <Internship/>
                     <Education />
                     <Certificate />
                     <Contact />

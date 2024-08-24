@@ -31,57 +31,57 @@ function Skills() {
                         <FaReact style={{ color: "blue" }} className='size-20' />
                     </div>
                 </div>
-                <div className="transform rounded-lg h-30 w-30 sm:h-36 sm:w-36 bg-white shadow-xl transition duration-300 hover:scale-105">
+                <div className="transform rounded-lg h-30 w-30 sm:h-36 sm:w-36 bg-white  shadow-xl transition duration-300 hover:scale-105">
                     <div className="flex h-full justify-center items-center">
                         <SiExpress style={{ color: "black" }} className='size-20 sm-size-10' />
                     </div>
                 </div>
-                <div className="transform rounded-lg h-30 w-30 sm:h-36 sm:w-36 bg-white shadow-xl transition duration-300 hover:scale-105 border-green-600">
+                <div className="transform rounded-lg h-30 w-30 sm:h-36 sm:w-36 bg-white  shadow-xl transition duration-300 hover:scale-105 border-green-600">
                     <div className="flex h-full justify-center items-center">
                         <SiMongodb style={{ color: "green" }} className='size-20' />
                     </div>
                 </div>
-                <div className="transform rounded-lg h-30 w-30 sm:h-36 sm:w-36 bg-white shadow-xl transition duration-300 hover:scale-105 border-green-600">
+                <div className="transform rounded-lg h-30 w-30 sm:h-36 sm:w-36 bg-white  shadow-xl transition duration-300 hover:scale-105 border-green-600">
                     <div className="flex h-full justify-center items-center">
                         <FaNodeJs style={{ color: "lightGreen" }} className='size-20' />
                     </div>
                 </div>
-                <div className="transform rounded-lg h-30 w-30 sm:h-36 sm:w-36 bg-white shadow-xl transition duration-300 hover:scale-105 border-green-600">
+                <div className="transform rounded-lg h-30 w-30 sm:h-36 sm:w-36 bg-white  shadow-xl transition duration-300 hover:scale-105 border-green-600">
                     <div className="flex h-full justify-center items-center">
                         <FaHtml5 style={{ color: "red" }} className='size-20' />
                     </div>
                 </div>
-                <div className="transform rounded-lg h-30 w-30 sm:h-36 sm:w-36 bg-white shadow-xl transition duration-300 hover:scale-105 border-green-600">
+                <div className="transform rounded-lg h-30 w-30 sm:h-36 sm:w-36 bg-white  shadow-xl transition duration-300 hover:scale-105 border-green-600">
                     <div className="flex h-full justify-center items-center">
                         <FaCss3Alt style={{ color: "blue" }} className='size-20' />
                     </div>
                 </div>
-                <div className="transform rounded-lg h-30 w-30 sm:h-36 sm:w-36 bg-white shadow-xl transition duration-300 hover:scale-105 border-green-600">
+                <div className="transform rounded-lg h-30 w-30 sm:h-36 sm:w-36 bg-white  shadow-xl transition duration-300 hover:scale-105 border-green-600">
                     <div className="flex h-full justify-center items-center">
                         <DiJavascript style={{ color: "Yellow" }} className='size-20' />
                     </div>
                 </div>
-                <div className="transform rounded-lg h-30 w-30 sm:h-36 sm:w-36 bg-white shadow-xl transition duration-300 hover:scale-105 border-green-600">
+                <div className="transform rounded-lg h-30 w-30 sm:h-36 sm:w-36 bg-white  shadow-xl transition duration-300 hover:scale-105 border-green-600">
                     <div className="flex h-full justify-center items-center">
                         <RiTailwindCssFill style={{ color: "skyBlue" }} className='size-20' />
                     </div>
                 </div>
-                <div className="transform rounded-lg h-30 w-30 sm:h-36 sm:w-36 bg-white shadow-xl transition duration-300 hover:scale-105 border-green-600">
+                <div className="transform rounded-lg h-30 w-30 sm:h-36 sm:w-36 bg-white  shadow-xl transition duration-300 hover:scale-105 border-green-600">
                     <div className="flex h-full justify-center items-center">
                         <TbBrandRedux style={{ color: "Blue" }} className='size-20' />
                     </div>
                 </div>
-                <div className="transform rounded-lg h-30 w-30 sm:h-36 sm:w-36 bg-white shadow-xl transition duration-300 hover:scale-105 border-green-600">
+                <div className="transform rounded-lg h-30 w-30 sm:h-36 sm:w-36 bg-white  shadow-xl transition duration-300 hover:scale-105 border-green-600">
                     <div className="flex h-full justify-center items-center">
                         <img src={Cplusplus} alt="git" className='size-20' />
                     </div>
                 </div>
-                <div className="transform rounded-lg h-30 w-30 sm:h-36 sm:w-36 bg-white shadow-xl transition duration-300 hover:scale-105 border-green-600">
+                <div className="transform rounded-lg h-30 w-30 sm:h-36 sm:w-36 bg-white  shadow-xl transition duration-300 hover:scale-105 border-green-600">
                     <div className="flex h-full justify-center items-center">
                         <img src={gitphoto} alt="C++" className='size-20' />
                     </div>
                 </div>
-                <div className="transform rounded-lg h-30 w-30 sm:h-36 sm:w-36 bg-white shadow-xl transition duration-300 hover:scale-105 border-green-600">
+                <div className="transform rounded-lg h-30 w-30 sm:h-36 sm:w-36 bg-white  shadow-xl transition duration-300 hover:scale-105 border-green-600">
                     <div className="flex h-full justify-center items-center">
                         <TbBrandMysql style={{ color: "#00758f" }} className='size-20' />
                     </div>

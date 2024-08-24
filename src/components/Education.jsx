@@ -27,20 +27,20 @@ export default function Education() {
   }, []);
 
   return (
-    <div ref={comp} className="bg-black text-white py-20 lg:px-64 md:px-28 " id="Education">
+    <div ref={comp} className="bg-white text-black py-20 lg:px-64 md:px-28 " id="Education">
       <h1 className="text-4xl mb-5 text-center font-bold">Education</h1>
 
       <div className="max-w-7xl mx-auto w-full grid grid-cols-9 px-2">
         {/* Left side content */}
         <div id="section1" className="col-span-4 w-full h-full">
           <div className="w-full h-full p-2 md:pl-4">
-            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            <time className="mb-1 text-sm font-normal leading-none text-black-400 dark:text-black-500">
               2021-Present
             </time>
-            <h3 className="text-lg font-semibold text-gray-200 my-2 dark:text-white">
+            <h3 className="text-lg font-semibold text-black-200 my-2 dark:text-black">
               Bachelor&apos;s Degree
             </h3>
-            <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+            <p className="mb-4 text-base font-normal text-black-500 dark:text-black-400">
               Parul University
               <div>Vadodara Gujarat India</div>
               <div>CGPA: 7.91</div>
@@ -62,13 +62,13 @@ export default function Education() {
 
         <div id="section2" className="col-span-4 w-full h-full">
           <div className="w-full h-full p-2 md:ml-24">
-            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            <time className="mb-1 text-sm font-normal leading-none text-black-400 dark:text-black-500">
               2019-2021
             </time>
-            <h3 className="text-lg font-semibold text-gray-200 my-2 dark:text-white">
+            <h3 className="text-lg font-semibold text-black-200 my-2 dark:text-wblack">
               Senior Secondary
             </h3>
-            <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+            <p className="mb-4 text-base font-normal text-black-500 dark:text-black-400">
                Mother Ayesha Children Academy
               <div>Jaunpur Uttar Pradesh India</div>
               <div>Percentage: 73%</div>
@@ -78,13 +78,13 @@ export default function Education() {
 
         <div id="section3" className="col-span-4 w-full h-full">
           <div className="w-full h-full p-2 md:pl-4">
-            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            <time className="mb-1 text-sm font-normal leading-none text-black-400 dark:text-black-500">
               2017-2019
             </time>
-            <h3 className="text-lg font-semibold text-gray-200 my-2 dark:text-white">
+            <h3 className="text-lg font-semibold text-black-200 my-2 dark:text-wblack">
               High School
             </h3>
-            <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+            <p className="mb-4 text-base font-normal text-black-500 dark:text-black-400 ">
               Shahana International School
               <div>Jaunpur Uttar Pradesh India</div>
               <div>Percentage: 88%</div>

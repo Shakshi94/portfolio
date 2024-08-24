@@ -36,9 +36,10 @@ export default function Navbar() {
                 <div className="flex items-center">
                     <ul className="hidden md:flex space-x-8 text-xl font-bold">
                         <li><Link activeClass='active' smooth={true} duration={200} offset={-70}  to='Home' className={`nav-link ${scroll ? 'hover:text-black' : 'hover:text-green-600'}`}>Home</Link></li>
-                        <li><Link activeClass='active' smooth={true} duration={200} offset={-70}  to='About' className={`nav-link ${scroll ? 'hover:text-black' : 'hover:text-green-600'}`} >About</Link> </li>
+                        <li><Link activeClass='active' smooth={true} duration={200} offset={-70}  to='About' className={`nav-link ${scroll ? 'hover:text-black' : 'hover:text-green-600'}`} >About</Link> </li>           
                         <li><Link activeClass='active' smooth={true} duration={200} offset={-70}  to='Skills' className={`nav-link ${scroll ? 'hover:text-black' : 'hover:text-green-600'}`} >Skills</Link></li>
                         <li><Link activeClass='active' smooth={true} duration={200} offset={-70}  to='Projects' className={`nav-link ${scroll ? 'hover:text-black' : 'hover:text-green-600'}`}> Projects</Link> </li>
+                         <li><Link activeClass='active' smooth={true} duration={200} offset={-70}  to='Internship' className={`nav-link ${scroll ? 'hover:text-black' : 'hover:text-green-600'}`} >Internship</Link></li>
                         <li><Link activeClass='active' smooth={true} duration={200} offset={-70}  to='Education' className={`nav-link ${scroll ? 'hover:text-black' : 'hover:text-green-600'}`}> Education</Link> </li>
                         <li><Link activeClass='active' smooth={true} duration={200} offset={-70}  to='Achievements' className={`nav-link ${scroll ? 'hover:text-black' : 'hover:text-green-600'}`}> Achievements</Link> </li>
                         <li><Link activeClass='active' smooth={true} duration={200} offset={-70}  to='Contact' className={`nav-link ${scroll ? 'hover:text-black' : 'hover:text-green-600'}`}> Contact</Link> </li>
@@ -56,6 +57,7 @@ export default function Navbar() {
                         <li><Link onClick={handleMenu}  activeClass='active' smooth={true} duration={200} offset={-70} to='About' className={`nav-link ${scroll ? 'hover:text-green-600' : ''}`} >About</Link> </li>
                         <li><Link onClick={handleMenu}  activeClass='active' smooth={true} duration={200} offset={-70}  to='Skills' className={`nav-link ${scroll ? 'hover:text-green-600' : ''}`} >Skills</Link></li>
                         <li><Link onClick={handleMenu}  activeClass='active' smooth={true} duration={200} offset={-70} to='Projects' className={`nav-link ${scroll ? 'hover:text-green-600' : ''}`}> Projects</Link> </li>
+                         <li><Link onClick={handleMenu}  activeClass='active' smooth={true} duration={200} offset={-70}  to='Internship' className={`nav-link ${scroll ? 'hover:text-green-600' : ''}`} >Internship</Link></li>
                         <li><Link  onClick={handleMenu} activeClass='active' smooth={true} duration={200} offset={-70} to='Education' className={`nav-link ${scroll ? 'hover:text-green-600' : ''}`}> Education</Link> </li>
                         <li><Link  onClick={handleMenu} activeClass='active' smooth={true} duration={200} offset={-70} to='Achievements' className={`nav-link ${scroll ? 'hover:text-green-600' : ''}`}> Achievements</Link> </li>
                         <li><Link onClick={handleMenu}  activeClass='active' smooth={true} duration={200} offset={-70}  to='Contact' className={`nav-link ${scroll ? 'hover:text-green-600' : ''}`}> Contact</Link> </li>
