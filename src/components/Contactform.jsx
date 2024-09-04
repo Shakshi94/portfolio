@@ -188,12 +188,16 @@ function Contact() {
         {/* Address Section */}
         <div className="bg-white text-gray-800 p-14 shadow-lg rounded-lg w-full md:w-2/5 mt-8 md:mt-0 md:ml-8">
           <div className="space-y-4">
+
             <div className="flex items-center">
-              <div className="rounded-full w-12 h-12 border-2 border-gray-300 flex items-center justify-center socialMedia-contact mr-4">
+
+              <div className="rounded-full w-25 h-10 border-2 border-gray-300 flex items-center justify-center socialMedia-contact mr-4">
                 <AlternateEmailIcon className="text-black" />
               </div>
-              <span className='text-lg font-bold text-gray-800'>vishwakarmasakshi80@gmail.com</span>
+              <span className='text-lg font-bold text-gray-800 text-wrap'>vishwakarmasakshi80@gmail.com</span>
+
             </div>
+
             <div className="flex items-center">
               <div className="rounded-full w-12 h-12 border-2 border-gray-300 flex items-center justify-center socialMedia-contact mr-4">
                 <PhoneIcon className="text-black" />
@@ -201,7 +205,7 @@ function Contact() {
               <span className='text-lg font-bold text-gray-800'>+919451909759</span>
             </div>
             <div className="flex items-center">
-              <div className="rounded-full w-14 h-12 border-2 border-gray-300 flex items-center justify-center socialMedia-contact mr-4">
+              <div className="rounded-full w-16 h-12 border-2 border-gray-300 flex items-center justify-center socialMedia-contact mr-4">
                 <LocationOnIcon className="text-black" />
               </div>
               <span className='text-lg font-bold text-gray-800'>Jasopur, Jaunpur, 222001, Uttar Pradesh, India</span>
@@ -220,7 +224,7 @@ function Contact() {
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/shakshi_vishwakarma_" target='_blank' rel='noopener noreferrer' className="rounded-full w-12 h-12 border-2 border-gray-300 flex items-center justify-center socialMedia-contact transition duration-200">
+                <a href="https://www.instagram.com/imshakshivishwakarma/" target='_blank' rel='noopener noreferrer' className="rounded-full w-12 h-12 border-2 border-gray-300 flex items-center justify-center socialMedia-contact transition duration-200">
                   <InstagramIcon className="text-black hover:text-green-600" />
                 </a>
               </li>

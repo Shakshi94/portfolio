@@ -62,7 +62,7 @@ function Home(){
                         </ul>
                     </div>
                 </div>
-                 <a href="https://drive.google.com/file/d/1Vst6w0mKarr0HNp4lHqO9EX8WNr6rExf/view" className="flex" target="blank"><Button variant="contained" size="large" color="success" className=' hover:bg-black'>Get Resume</Button></a>
+                 <a href="https://drive.google.com/file/d/1yFd9NxIV8mZVtHs91hFNS8rx50fWHVKn/view?usp=sharing" className="flex" target="blank"><Button variant="contained" size="large" color="success" className=' hover:bg-black'>Get Resume</Button></a>
                 </div>
             </div>
            
@@ -72,5 +72,5 @@ function Home(){
 }
 
 
-export default Home
+export default Home;
 
