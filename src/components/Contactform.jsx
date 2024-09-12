@@ -186,7 +186,8 @@ function Contact() {
         </div>
 
         {/* Address Section */}
-        <div className="bg-white text-gray-800 p-14  shadow-lg rounded-lg w-full md:w-2/5 mt-8 md:mt-0 md:ml-8 hidden lg:block">
+        <div className="bg-white text-gray-800 p-14 shadow-lg rounded-lg w-full md:w-2/5 mt-8 md:mt-0 md:ml-8 hidden md:block">
+        
           <div className="space-y-4">
 
             <div className="flex items-center">
@@ -206,7 +207,7 @@ function Contact() {
             </div>
             <div className="flex items-center">
               <div className="rounded-full w-14 h-12 border-2 border-gray-300 flex items-center justify-center socialMedia-contact mr-4">
-                <LocationOnIcon className="text-black" />
+                <LocationOnIcon className="text-black w-1 h-1" />
               </div>
               <span className='text-lg font-bold text-gray-800'>Jasopur, Jaunpur, 222001, Uttar Pradesh, India</span>
             </div>
@@ -226,6 +227,53 @@ function Contact() {
               <li>
                 <a href="https://www.instagram.com/imshakshivishwakarma/" target='_blank' rel='noopener noreferrer' className="rounded-full w-12 h-12 border-2 border-gray-300 flex items-center justify-center socialMedia-contact transition duration-200">
                   <InstagramIcon className="text-black hover:text-green-600" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+         {/* Address Section  for mobile phone*/}
+          <div className="bg-white text-gray-800 p-3 shadow-lg rounded-lg w-full md:w-2/5 mt-8 md:mt-0 md:ml-8 block md:hidden">
+        
+          <div className="space-y-4">
+
+            <div className="flex items-center">
+
+              <div className="rounded-full w-10 h-10 border-2 border-gray-300 flex items-center justify-center socialMedia-contact mr-2">
+                <AlternateEmailIcon className="text-black w-2 h-2" />
+              </div>
+              <span className='text-m font-bold text-gray-800 text-wrap'>vishwakarmasakshi80@gmail.com</span>
+
+            </div>
+
+            <div className="flex items-center">
+              <div className="rounded-full w-10 h-10 border-2 border-gray-300 flex items-center justify-center socialMedia-contact mr-2">
+                <PhoneIcon className="text-black w-2 h-2" />
+              </div>
+              <span className='text-m font-bold text-gray-800'>+919451909759</span>
+            </div> 
+            <div className="flex items-center">
+              <div className="rounded-full w-12 h-10 border-2 border-gray-300 flex items-center justify-center socialMedia-contact mr-2">
+                <LocationOnIcon className="text-black w-2 h-2" />
+              </div>
+              <span className='text-m font-bold text-gray-800'>Jasopur, Jaunpur, 222001, Uttar Pradesh, India</span>
+            </div>
+          </div>
+          <div className="flex flex-col items-center mt-6 space-y-6">
+            <ul className="flex space-x-8">
+              <li>
+                <a href="https://www.linkedin.com/in/shakshi-vishwakarma-21050421b/" target='_blank' rel='noopener noreferrer' className="rounded-full w-10 h-10 border-2 border-gray-300 flex items-center justify-center socialMedia-contact transition duration-200">
+                  <LinkedInIcon className="text-black hover:text-green-600 w-4 h-4" />
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/Shakshi94" target='_blank' rel='noopener noreferrer' className="rounded-full w-10 h-10 border-2 border-gray-300 flex items-center justify-center socialMedia-contact  transition duration-200">
+                  <GitHubIcon className="text-black hover:text-green-600 w-4 h-4" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/imshakshivishwakarma/" target='_blank' rel='noopener noreferrer' className="rounded-full w-10 h-10 border-2 border-gray-300 flex items-center justify-center socialMedia-contact transition duration-200">
+                  <InstagramIcon className="text-black hover:text-green-600 w-4 h-4" />
                 </a>
               </li>
             </ul>
