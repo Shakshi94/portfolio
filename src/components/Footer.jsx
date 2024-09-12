@@ -6,10 +6,10 @@ export default function Footer() {
                     Created By <span className="text-green-600">Shakshi Vishwakarma</span> |  &#169; 2024 All rights reserved.
                 </p>
                 <p className="font-bold lg:hidden">
-                    Created By <span className="text-green-600">Shakshi Vishwakarma &nbsp;</span>
+                    Created By <span className="text-green-600">Shakshi Vishwakarma</span> | &#169; 2024 
                 </p>
                 <p className="font-bold  lg:hidden">
-                    | &#169; 2024 All rights reserved
+                     All rights reserved
                 </p>
             </div>   
         </div>
