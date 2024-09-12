@@ -14,12 +14,14 @@ function Home(){
             <div className="home flex flex-row flex-cols mx-4 ">
             <div className='mt-5 md:mt-24 space-y-4'>
                 <h1 className='leading-10 text-4xl font-bold mb-4'>Hello<span className="wave">👋</span>, I&apos;m</h1>
-                <h1 className="text-5xl leading-10 font-extrabold  mb-4">Shakshi Vishwakarma</h1>
+                <h1 className="text-5xl leading-10 font-extrabold  mb-4 hidden md:block">Shakshi Vishwakarma</h1>
+                <h1 className="text-5xl leading-10 font-extrabold  mb-4 block md:hidden ">Shakshi</h1>
+                <h1 className="text-5xl leading-10 font-extrabold  mb-4 block md:hidden ">Vishwakarma</h1>
                 <ReactTyped
                     className='leading-10 text-green-600 font-bold text-4xl space-y-6' 
                     strings={[
                         "Coder",
-                        "(MERN) Full Stack Developer",
+                        "Full Stack Developer",
                         "Programmer",
                     ]}
                     typeSpeed={40}
@@ -31,7 +33,8 @@ function Home(){
                 <div className="flex flex-col justify-between space-y-6 md:space-y-0">
                     <div className="space-y-2 font-semibold ">
                          <h1 className="font-bold text-2xl mb-4">Avaliable on</h1> 
-                         <ul className="flex flex-wrap space-x-5 mb-4">
+
+                         <ul className="flex flex-wrap space-x-1 md:space-x-3 mb-4">
                             <li><a href="https://www.linkedin.com/in/shakshi-vishwakarma-21050421b/" target="blank">
                                 <div className="rounded-full w-12 h-12 border-2 border-white flex items-center justify-center socialMedia-contact mr-4">
                                     <LinkedInIcon/> 
