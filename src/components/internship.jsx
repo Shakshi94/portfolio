@@ -1,5 +1,4 @@
 import { Card, CardContent, Typography, CardActions, Button } from "@mui/material";
-import Certificate from './Certificate'
 
 function internship() {
   return (
@@ -36,7 +35,7 @@ function internship() {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button size="small" color="success" href="https://github.com/Shakshi94">
+                  <Button size="small" color="success" href="https://github.com/Shakshi94" target="blank">
                     View Project
                   </Button>
                 </CardActions>
@@ -72,7 +71,7 @@ function internship() {
                 </CardContent>
                 <CardActions>
                   <Button size="small" color="success" href="https://github.com/Shakshi94">
-                    <a href="https://drive.google.com/file/d/1G0NJWhoTkTn5F-7xUoZKoqeeK9KdVCIY/view?usp=sharing">View Certificate</a>
+                    <a href="https://drive.google.com/file/d/1G0NJWhoTkTn5F-7xUoZKoqeeK9KdVCIY/view?usp=sharing" target="blank">View Certificate</a>
                   </Button>
                 </CardActions>
               </Card>
