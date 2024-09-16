@@ -40,8 +40,8 @@ function internship() {
                   </Button>
                 </CardActions>
               </Card>
-
-
+             </div>  
+              <div className='flex items-center justify-center'>
               <Card sx={{ maxWidth: 345, margin: "20px auto", backgroundColor: '#181818',color:'white',
               "&:hover": {
                 transform: "scale(1.05)",
@@ -75,7 +75,7 @@ function internship() {
                   </Button>
                 </CardActions>
               </Card>
-          </div>  
+              </div>  
         </div>
     );
 }
