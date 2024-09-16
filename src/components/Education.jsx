@@ -43,7 +43,7 @@ export default function Education() {
             <p className="mb-4 text-base font-normal text-black dark:text-gray-400">
               Parul University
               <div>Vadodara Gujarat India</div>
-              <div>CGPA: 7.91</div>
+              <div>CGPA: 8.05</div>
             </p>
           </div>
         </div>

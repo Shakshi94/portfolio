@@ -24,11 +24,11 @@ function About() {
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.7 }}
                 className="md:space-y-8 font-semi-bold text-lg w-full md:w-1/2 p-4 md:p-0 md:ml-10 mt-5">
-                    <p>
+                    <p className="text-justify">
                        <div>Hello! I&apos;m  <span className="text-green-600 font-bold">Shakshi Vishwakarma,</span></div> 
                        a dedicated Full Stack Developer with a keen interest in creating efficient and dynamic web applications. 
                        Currently, I&apos;m in 4<sup>th</sup> year pursuing a B.Tech in Computer Science Engineering at Parul University, 
-                       where I maintain a CGPA of 7.91. My journey in tech has been driven by a passion for coding, 
+                       where I maintain a CGPA of 8.05. My journey in tech has been driven by a passion for coding, 
                        problem-solving, and continuous learning.
 
                        <div>
