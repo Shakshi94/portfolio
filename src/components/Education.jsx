@@ -63,7 +63,7 @@ export default function Education() {
         <div id="section2" className="col-span-4 w-full h-full">
           <div className="w-full h-full p-2 md:ml-24">
             <time className="mb-1 text-sm font-normal leading-none text-black dark:text-gray-500">
-              2019-2021
+              2020-2021
             </time>
             <h3 className="text-lg font-semibold text-black my-2 dark:text-white">
               Senior Secondary
@@ -79,7 +79,7 @@ export default function Education() {
         <div id="section3" className="col-span-4 w-full h-full">
           <div className="w-full h-full p-2 md:pl-4">
             <time className="mb-1 text-sm font-normal leading-none text-black dark:text-gray-500">
-              2017-2019
+              2018-2019
             </time>
             <h3 className="text-lg font-semibold text-black my-2 dark:text-white">
               High School
