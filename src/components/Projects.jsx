@@ -37,7 +37,7 @@ function Projects() {
               <h1 className="mb-4 text-2xl font-extrabold text-gray-900 dark:text-white md:text-4xl lg:text-4xl">
                 <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Nestify</span>
               </h1>
-              <p className="text-base md:text-lg font-normal text-black dark:text-gray-400">
+              <p className="text-base md:text-lg font-normal text-black dark:text-gray-400 text-justify">
                 &ldquo;Nestify&ldquo; is a platform like Airbnb, designed for exploring renowned tourist destinations. It features authentication for secure access and utilizes the Map box API to provide interactive maps. Additionally, users can contribute by adding new tourist spots for others to discover. This website follows the MVC model.
               </p>
             </div>
@@ -61,7 +61,7 @@ function Projects() {
               <h1 className="mb-4 text-2xl font-extrabold text-gray-900 dark:text-white md:text-4xl lg:text-4xl">
                 <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Simon Says Game</span>
               </h1>
-              <p className="text-base md:text-lg font-normal text-black dark:text-gray-400">
+              <p className="text-base md:text-lg font-normal text-black dark:text-gray-400  text-justify">
                 Welcome to Simon Says, a classic memory game where you have to remember and repeat a sequence of colors! Test your memory skills and see how far you can go.
               </p>
             </div>
@@ -99,7 +99,7 @@ function Projects() {
               <h1 className="mb-4 text-2xl md:text-3xl lg:text-4xl font-extrabold text-gray-900 dark:text-white">
                 <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Weather App</span>
               </h1>
-              <p className="text-base md:text-lg font-normal text-black dark:text-gray-400">
+              <p className="text-base md:text-lg font-normal text-black dark:text-gray-400  text-justify">
                 Developed a weather application using JavaScript and React for the user interface, leveraging the OpenWeatherMap API to fetch and display weather reports for searched cities.
               </p>
             </div>

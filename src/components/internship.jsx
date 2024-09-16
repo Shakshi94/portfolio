@@ -7,7 +7,7 @@ function internship() {
                 <div className="text-4xl font-bold">Internship</div>
             </div>
 
-            <div className='flex align-items-center justify-center'>
+            <div className='flex items-center justify-center'>
              <Card sx={{ maxWidth: 345, margin: "20px auto", backgroundColor: '#181818',color:'white',
               "&:hover": {
                 transform: "scale(1.05)",
