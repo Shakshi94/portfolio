@@ -33,7 +33,7 @@ export default function Certificate() {
           <span className="text-xl font-semibold text-black">MERN Full Stack Development (Apna College)</span>
         </AccordionSummary>
         <AccordionDetails className="text-gray-700">
-          I did Full stack development from Apna College. I learned MongoDB, Express, React, Node.js, and also HTML & CSS.
+          I did Full stack development from Apna College. I learned MongoDB, Express, React, Node.js, and also HTML, CSS, JavaScript.
           <div className='mt-4'>
             <a href="https://drive.google.com/file/d/1dCc5dcXLz-0AovjunN4fHHuzx_3D3MCY/view" target="_blank" rel="noopener noreferrer">
               <button type="button" className="text-white bg-green-700 hover:bg-green-600 font-medium rounded-md text-sm px-4 py-2">Show Credential</button>
