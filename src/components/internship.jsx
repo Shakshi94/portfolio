@@ -1,5 +1,6 @@
 import { Card, CardContent, Typography, CardActions, Button } from "@mui/material";
 
+
 function Internship() {
   return (
     <div className="bg-black text-white max-w-screen-2xl container mx-auto px-4 md:px-20 py-20" id="Internship">

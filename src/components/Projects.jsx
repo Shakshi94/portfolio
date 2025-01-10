@@ -2,9 +2,16 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 import nestify from '../../public/nestify.jpg'
 import simon from '../../public/simon.jpg'
-import weather from '../../public/weather.jpg'
+import weather from '../../public/weather.jpg';
+import { useNavigate } from 'react-router-dom';
 
 function Projects() {
+
+  const navigate = useNavigate();
+
+  const handleDetailProjects = () => {
+    navigate("/detail-projects");
+  };
   return (
       <div className="max-w-screen-2xl container mx-auto  md:px-10  bg-white text-black py-20" id='Projects'>
         <div className="flex flex-col items-center space-y-4">
@@ -106,6 +113,8 @@ function Projects() {
           </motion.div>
         </div>
 
+        
+
         <motion.div
           variants={fadeIn('top', 0.2)}
           initial="hidden"
@@ -114,7 +123,8 @@ function Projects() {
           className="flex justify-center mt-8"
         >
 
-          <a className="inline-flex items-center px-3 py-2 text-sm font-medium text-center rounded-lg bg-green-600 text-white hover:bg-black">
+          <a onClick={handleDetailProjects} className="inline-flex items-center px-3 py-2 text-sm font-medium text-center rounded-lg bg-green-600 text-white hover:bg-black">
+          
             Show more
             <svg
               className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
