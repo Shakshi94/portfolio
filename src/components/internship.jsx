@@ -13,7 +13,7 @@ function Internship() {
             sx={{
               maxWidth: 345,
               margin: "20px auto",
-              backgroundColor: "#181818",
+              backgroundColor: "#333",
               color: "white",
               "&:hover": {
                 transform: "scale(1.05)",
@@ -55,7 +55,7 @@ function Internship() {
             sx={{
               maxWidth: 345,
               margin: "20px auto",
-              backgroundColor: "#181818",
+              backgroundColor: "#333",
               color: "white",
               "&:hover": {
                 transform: "scale(1.05)",
@@ -89,6 +89,50 @@ function Internship() {
                   View Certificate
                 </a>
               </Button>
+            </CardActions>
+          </Card>
+        </div>
+
+         {/* Third Internship */}
+        <div className="w-full sm:w-1/2 lg:w-auto mb-4">
+          <Card
+            sx={{
+              maxWidth: 345,
+              margin: "20px auto",
+              backgroundColor: "#333",
+              color: "white",
+              "&:hover": {
+                transform: "scale(1.05)",
+                boxShadow: "0 6px 20px rgba(255, 255, 255, 0.2)",
+              },
+            }}
+          >
+            <CardContent>
+              <Typography variant="h6" color="white">
+                Coterie Software Solution Pvt Ltd.
+              </Typography>
+              <Typography component="div" sx={{ fontWeight: "bold" }}>
+                Software Developer
+              </Typography>
+              <Typography variant="body2" color="white" sx={{ margin: "10px 0" }}>
+                <p className="text-justify">
+                  Currently learning and exploring .NET technology, including ASP.NET, C#, and SQL Server.
+                  Engaged in understanding software development lifecycles and best practices for .NET projects.
+                  Actively participating in team discussions and training sessions to enhance technical skills.
+                  Building foundational knowledge in MVC architecture, database integration, and RESTful API development.
+                </p>
+              </Typography>
+              {/* <Typography variant="body2" sx={{ fontWeight: "bold" }}>
+                Skills: JavaScript, HTML, CSS, Bootstrap,C#
+              </Typography> */}
+              <Typography variant="body2" sx={{ fontWeight: "bold", margin: "10px 0" }}>
+                January 2025 to Present
+              </Typography>
+            </CardContent>
+            <CardActions>
+              {/* <Button size="small" color="success" href="https://github.com/Shakshi94" target="blank">
+                View Project
+              </Button> */}
             </CardActions>
           </Card>
         </div>
